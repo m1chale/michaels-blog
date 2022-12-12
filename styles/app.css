@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+.layoutContainer{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 1fr 150px;
+    grid-template-rows: 70px 1fr 50px;
+    grid-template-areas: 
+    "header header"
+    "main sidebar"
+    "footer footer";
+}
+
+.topNav{
+    grid-area: header;
+    background-color: green;
+}
+
+.contentContainer{
+    grid-area: main;
+    background-color: red;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: blue;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: yellow;
+}
