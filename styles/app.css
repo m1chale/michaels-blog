@@ -3,21 +3,24 @@
     margin: 0;
   }
 
+/*** Layout ***/
 .layoutContainer{
     display: grid;
     height: 100vh;
     width: 100vw;
     grid-template-columns: 1fr 150px;
-    grid-template-rows: 70px 1fr 50px;
+    grid-template-rows: 100px 1fr 50px;
     grid-template-areas: 
     "header header"
     "main sidebar"
     "footer footer";
 }
 
-.topNav{
+.header{
     grid-area: header;
-    background-color: green;
+    background-color: #476C52;
+    display: flex;
+    align-items:center;
 }
 
 .contentContainer{
@@ -33,4 +36,30 @@
 .footer{
     grid-area: footer;
     background-color: yellow;
+}
+
+/*** Header ***/
+.logo{
+    margin-left: 100px;
+    vertical-align: bottom;
+    color: white;
+    font-size: 48px;
+    text-decoration: none; 
+}
+
+.navContainer{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+    gap: 30px;
+}
+
+.navItem{
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.navItem:hover{
+    color: #C0F7DB;
 }
