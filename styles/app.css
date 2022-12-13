@@ -11,8 +11,8 @@
     display: grid;
     height: 100vh;
     width: 100vw;
-    grid-template-columns: 1fr 150px;
-    grid-template-rows: 100px 1fr 50px;
+    grid-template-columns: 1fr 378px;
+    grid-template-rows: 100px 1fr 80px;
     grid-template-areas: 
     "header header"
     "main sidebar"
@@ -28,17 +28,17 @@
 
 .contentContainer{
     grid-area: main;
-    background-color: red;
+    background-color: white;
 }
 
 .sidebar{
     grid-area: sidebar;
-    background-color: blue;
+    background-color: #FFC857;
 }
 
 .footer{
     grid-area: footer;
-    background-color: yellow;
+    background-color: #E8E8E8;
 }
 
 /*** Header ***/
