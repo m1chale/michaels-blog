@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+@import url("index.css");
 
 *{
     padding: 0;
@@ -19,7 +20,7 @@
     "footer footer";
 }
 
-.header{
+header{
     grid-area: header;
     background-color: #476C52;
     display: flex;
@@ -36,7 +37,7 @@
     background-color: #FFC857;
 }
 
-.footer{
+footer{
     grid-area: footer;
     background-color: #E8E8E8;
     display: flex;
