@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    font-family: "Marvel";
   }
 
 /*** Layout ***/
@@ -44,6 +47,7 @@
     vertical-align: bottom;
     color: white;
     font-size: 48px;
+    font-weight: bold;
     text-decoration: none; 
 }
 
