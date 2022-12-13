@@ -35,6 +35,10 @@ header{
 .sidebar{
     grid-area: sidebar;
     background-color: #FFC857;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    padding-top: 100px;
 }
 
 footer{
