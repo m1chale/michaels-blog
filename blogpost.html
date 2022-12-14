@@ -10,7 +10,7 @@
 <body>
     <div class="layoutContainer">
         <header>
-            <a class="logo" href="index.html">Webbloggy</a>
+            <a class="logo" href="index.html">Webelephant</a>
             <nav class="navContainer">
                 <a class="navItem" href="index.html">Home</a>
                 <a class="navItem" href="about.html">About me</a>
@@ -18,11 +18,22 @@
             </nav>
         </header>
 
-        <section class="blogContainer">
+        <section class="postContainer">
             <a class="backLink" href="index.html">Go back</a>
             <img class="postHero" src="images/collaboration.png" alt="People typing on laptops">
-            <h1 class="blogHeading">How I collaborate with others</h1>
+            <div class="postHead">
+                <h1 class="postHeading">How I collaborate with others</h1>
+                <div class="socialLinkContainer">
+                    <a class="socialLink" href="dummy.html">
+                        <img src="images/logos_facebook.svg" alt="facebook logo">
+                    </a>
+                    <a class="socialLink" href="dummy.html"><img src="images/logos_twitter.svg" alt="twitter logo"></a>
+                    <a class="socialLink" href="dummy.html"><img src="images/logos_linkedin-icon.svg"
+                            alt="linkedIn logo"></a>
+                </div>
+            </div>
             <div class="postDate">12.12.2022</div>
+
             <p class="postText">Imagine you are responsible for customer service at a technology company. Fortunately,
                 your company enjoys high customer satisfaction. Until one day it plummets. It turns out you've received
                 a wave of complaints about a new software update. This is the first you've heard of such an update. You
@@ -48,16 +59,28 @@
         <section class="sidebar">
             <h2>Author</h2>
             <img class="authorPortrait" src="images/portrait.jpg" alt="portrait of author">
-            <span class="authorInfo">Name:</span>
-            <span class="authorInfo">Michael Friedrich</span>
-            <span class="authorInfo">Title:</span>
-            <span class="authorInfo">Frontend developer</span>
-            <span class="authorInfo">Bio:</span>
-            <span class="authorInfo">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                tempor invidunt ut
-                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
-                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                dolor sit amet, consetetur sadipscing elitr</span>
+
+            <div class="authorInfoContainer">
+                <div class="authorInfoLine">
+                    <span class="authorInfo left">Name:</span>
+                    <span class="authorInfo ">Michael Friedrich</span>
+                </div>
+
+                <div class="authorInfoLine">
+                    <span class="authorInfo left">Title:</span>
+                    <span class="authorInfo">Frontend developer</span>
+                </div>
+                <div class="authorInfoLine">
+                    <span class="authorInfo left">Company:</span>
+                    <span class="authorInfo">Webelephant</span>
+                </div>
+
+                <span class="authorInfo">Bio:</span>
+                <span class="authorInfo bio">Michael is a web developer in the northern Upper
+                    Palatinate. He has been
+                    working in IT for over ten years, mostly developing database applications. His special passion is
+                    designing websites and applications. </span>
+            </div>
         </section>
 
         <footer>
