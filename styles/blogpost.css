@@ -1,0 +1,69 @@
+/*** Content ***/
+
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 200px 55px 100px;
+}
+
+.backLink {
+  font-size: 16px;
+  color: #83464e;
+}
+
+.postHero {
+  margin-top: 25px;
+  width: 55%;
+  border-radius: 10px;
+}
+
+.blogHeading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.postDate {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.postText {
+  font-size: 22px;
+}
+
+.postSubHeading {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.relatedPostsHeading {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.relatedPosts {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.relatedPostsLink {
+  font-size: 16px;
+  color: #83464e;
+}
+
+.authorPortrait {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+}
+
+.authorInfo {
+  font-size: 24px;
+  font-weight: bold;
+}

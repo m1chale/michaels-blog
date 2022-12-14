@@ -1,89 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Marvel&display=swap");
 @import url("index.css");
+@import url("blogpost.css");
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Marvel";
-  }
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Marvel";
+}
 
 /*** Layout ***/
-.layoutContainer{
-    display: grid;
-    height: 100vh;
-    width: 100vw;
-    grid-template-columns: 1fr 378px;
-    grid-template-rows: 100px 1fr 80px;
-    grid-template-areas: 
+.layoutContainer {
+  display: grid;
+  height: 100vh;
+  width: 1fr;
+  grid-template-columns: 1fr 378px;
+  grid-template-rows: 100px 1fr 80px;
+  grid-template-areas:
     "header header"
     "main sidebar"
     "footer footer";
 }
 
-header{
-    grid-area: header;
-    background-color: #476C52;
-    display: flex;
-    align-items:center;
+header {
+  grid-area: header;
+  background-color: #476c52;
+  display: flex;
+  align-items: center;
 }
 
-.contentContainer{
-    grid-area: main;
-    background-color: white;
+.contentContainer {
+  grid-area: main;
+  background-color: white;
 }
 
-.sidebar{
-    grid-area: sidebar;
-    background-color: #FFC857;
-    display: flex;
-    flex-direction: column;
-    align-items:stretch;
-    padding-top: 100px;
+.sidebar {
+  grid-area: sidebar;
+  background-color: #ffc857;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-top: 100px;
 }
 
-footer{
-    grid-area: footer;
-    background-color: #E8E8E8;
-    display: flex;
-    gap: 30px;
-    align-items:center;
-    padding-left: 100px;
+footer {
+  grid-area: footer;
+  background-color: #e8e8e8;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding-left: 100px;
 }
 
 /*** Header ***/
-.logo{
-    margin-left: 100px;
-    vertical-align: bottom;
-    color: white;
-    font-size: 48px;
-    font-weight: bold;
-    text-decoration: none; 
+.logo {
+  margin-left: 100px;
+  vertical-align: bottom;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.navContainer{
-    display: flex;
-    margin-left: auto;
-    margin-right: 100px;
-    gap: 30px;
+.navContainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: 100px;
+  gap: 30px;
 }
 
-.navItem{
-    color: white;
-    font-size: 36px;
-    text-decoration: none;
+.navItem {
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
 }
 
-.navItem:hover{
-    color: #C0F7DB;
+.navItem:hover {
+  color: #c0f7db;
 }
 
 /*** Footer ***/
-.footerNavItem{
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
+.footerNavItem {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.footerNavItem:hover{
-    text-decoration: underline;
+.footerNavItem:hover {
+  text-decoration: underline;
 }
