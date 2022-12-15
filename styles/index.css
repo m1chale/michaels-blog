@@ -59,12 +59,32 @@ h2 {
 
 .subscribe-form {
   margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  grid-template-rows: 30px 30px 1fr;
+  grid-template-areas:
+    "label1 entry1"
+    "label2 entry2"
+    "button1 button1";
+  row-gap: 15px;
 }
-.subscribe-entries {
-  clear: both;
+
+#label1 {
+  grid-area: label1;
+}
+
+#label2 {
+  grid-area: label2;
+}
+
+#entry1 {
+  grid-area: entry1;
+}
+
+#entry2 {
+  grid-area: entry2;
 }
 
 .subscribe-label {
@@ -83,6 +103,7 @@ h2 {
 
 #subscribe-btn {
   font-size: 20px;
+  grid-area: button1;
 }
 
 #subscribe-btn:hover {
@@ -112,6 +133,10 @@ h2 {
   .card {
     width: 230px;
     height: 275px;
+  }
+
+  .subscribe-form {
+    grid-template-columns: 90px 140px;
   }
 }
 
