@@ -15,6 +15,7 @@
 .card-container {
   margin-left: 100px;
   margin-top: 75px;
+  margin-right: 100px;
   display: flex;
   gap: 60px;
 }
@@ -87,4 +88,55 @@ h2 {
 #subscribe-btn:hover {
   background-color: #e8e8e8;
   cursor: pointer;
+}
+
+/* tablet screens */
+@media (min-width: 616px) and (max-width: 850px) {
+  .sub-heading {
+    margin-left: 35px;
+    margin-top: 25px;
+    font-size: 15px;
+  }
+
+  .main-heading {
+    margin-left: 35px;
+    font-size: 50px;
+  }
+
+  .card-container {
+    margin: 25px 35px 50px 35px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .card {
+    width: 230px;
+    height: 275px;
+  }
+}
+
+/* mobile screens */
+@media (max-width: 615px) {
+  .sub-heading {
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 15px;
+  }
+
+  .main-heading {
+    margin-left: 30px;
+    font-size: 50px;
+  }
+
+  .card-container {
+    margin: 25px 30px 50px 30px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .card {
+    width: 230px;
+    height: 275px;
+  }
 }
