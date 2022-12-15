@@ -113,8 +113,8 @@ footer {
 /* mobile screens */
 @media (max-width: 615px) {
   .logo {
-    margin-left: 50px;
-    font-size: 26px;
+    margin-left: 25px;
+    font-size: 24px;
   }
 
   .nav-container {
@@ -122,7 +122,7 @@ footer {
   }
 
   .nav-item {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .layout-container {
