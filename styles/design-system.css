@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel&display=swap");
+
+* {
+  font-family: "Marvel";
+}
+
+.link {
+  color: #83464e;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: #83464e;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  color: black;
+  background-color: #ffc857;
+}

@@ -8,84 +8,98 @@
 </head>
 
 <body>
-    <div class="layoutContainer">
+    <div class="layout-container">
         <header>
             <a class="logo" href="index.html">Webelephant</a>
-            <nav class="navContainer">
-                <a class="navItem" href="index.html">Home</a>
-                <a class="navItem" href="about.html">About me</a>
-                <a class="navItem" href="projects.html">Projects</a>
+
+            <nav class="nav-container" role="navigation">
+                <a class="nav-item" href="index.html">Home</a>
+                <a class="nav-item" href="dummy.html">About me</a>
+                <a class="nav-item" href="dummy.html">Projects</a>
             </nav>
         </header>
 
-        <section class="postContainer">
-            <a class="backLink" href="index.html">Go back</a>
-            <img class="postHero" src="images/collaboration.png" alt="People typing on laptops">
-            <div class="postHead">
-                <h1 class="postHeading">How I collaborate with others</h1>
-                <div class="socialLinkContainer">
-                    <a class="socialLink" href="dummy.html">
+        <article class="post-container" role="main">
+            <a class="back-link link" href="index.html">Go back</a>
+
+            <figure>
+                <img class="post-hero" src="images/collaboration.png" alt="People typing on laptops">
+                <figcaption>A team that works closely together.</figcaption>
+            </figure>
+
+            <div class="post-head">
+                <h1 class="post-heading">How I collaborate with others</h1>
+
+                <div class="social-link-container">
+                    <a class="social-link" href="dummy.html">
                         <img src="images/logos_facebook.svg" alt="facebook logo">
                     </a>
-                    <a class="socialLink" href="dummy.html"><img src="images/logos_twitter.svg" alt="twitter logo"></a>
-                    <a class="socialLink" href="dummy.html"><img src="images/logos_linkedin-icon.svg"
+                    <a class="social-link" href="dummy.html"><img src="images/logos_twitter.svg" alt="twitter logo"></a>
+                    <a class="social-link" href="dummy.html"><img src="images/logos_linkedin-icon.svg"
                             alt="linkedIn logo"></a>
                 </div>
             </div>
-            <div class="postDate">12.12.2022</div>
 
-            <p class="postText">Imagine you are responsible for customer service at a technology company. Fortunately,
-                your company enjoys high customer satisfaction. Until one day it plummets. It turns out you've received
+            <div class="post-date">12.12.2022</div>
+
+            <p class="post-text"> Michael says: <q>Collaboration is very important.</q><br>Imagine you are responsible
+                for customer service at a technology company. Fortunately, your company enjoys high customer
+                satisfaction. Until one day it plummets. It turns out you've received
                 a wave of complaints about a new software update. This is the first you've heard of such an update. You
                 investigate and find that the various departments just aren't talking to each other. The IT department
                 failed to inform you and the marketing department, so customers were neither informed nor warned. Worse,
                 they failed to ask customers for feedback on what the update should include, and now they can't access
                 some of the features they liked best.</p>
+
             <br>
-            <h3 class="postSubHeading">What Is Collaboration?</h3>
-            <p class="postText">Collaboration means working together with people from across the business to achieve a
-                shared goal. Although similar to teamwork, a collaborative partnership is not hierarchical – everyone
-                has equal status, no matter their seniority (though you may elect one person to organize the
-                collaborative project). You can collaborate with members of your own team or from other departments, as
+            <h2 class="post-sub-heading">What Is Collaboration?</h2>
+            <p class="post-text">Collaboration means working together with people from across the business to achieve
+                a shared goal. Although similar to teamwork, a collaborative partnership is not hierarchical–
+                <u>everyone
+                    has equal status,</u> no matter their seniority (though you may elect one person to organize the
+                collaborative project). You can collaborate with members of your own team or from other departments,
+                as
                 well as contractors, clients, or even other organizations.</p>
-            <h4 class="relatedPostsHeading">You might also be interested in:</h4>
-            <div class="relatedPosts">
-                <a class="relatedPostsLink" href="dummy.html">Getting better at Google SEO</a>
-                <a class="relatedPostsLink" href="dummy.html">How to use Notepad++</a>
-                <a class="relatedPostsLink" href="dummy.html">5 MS-Teams tips and tricks</a>
+            <h3 class="related-posts-heading">You might also be interested in:</h3>
+
+            <div class="related-posts">
+                <a class="related-posts-link link" href="dummy.html">Getting better at Google SEO</a>
+                <a class="related-posts-link link" href="dummy.html">How to use Notepad++</a>
+                <a class="related-posts-link link" href="dummy.html">5 MS-Teams tips and tricks</a>
             </div>
-        </section>
+        </article>
 
-        <section class="sidebar">
+        <aside class="sidebar">
             <h2>Author</h2>
-            <img class="authorPortrait" src="images/portrait.jpg" alt="portrait of author">
+            <img class="author-portrait" src="images/portrait.jpg" alt="portrait of author">
 
-            <div class="authorInfoContainer">
-                <div class="authorInfoLine">
-                    <span class="authorInfo left">Name:</span>
-                    <span class="authorInfo ">Michael Friedrich</span>
+            <div class="author-info-container">
+                <div class="author-info-line">
+                    <span class="author-info left">Name:</span>
+                    <span class="author-info ">Michael Friedrich</span>
                 </div>
 
-                <div class="authorInfoLine">
-                    <span class="authorInfo left">Title:</span>
-                    <span class="authorInfo">Frontend developer</span>
-                </div>
-                <div class="authorInfoLine">
-                    <span class="authorInfo left">Company:</span>
-                    <span class="authorInfo">Webelephant</span>
+                <div class="author-info-line">
+                    <span class="author-info left">Title:</span>
+                    <span class="author-info">Frontend developer</span>
                 </div>
 
-                <span class="authorInfo">Bio:</span>
-                <span class="authorInfo bio">Michael is a web developer in the northern Upper
+                <div class="author-info-line">
+                    <span class="author-info left">Company:</span>
+                    <span class="author-info">Webelephant</span>
+                </div>
+
+                <span class="author-info">Bio:</span>
+                <span class="author-info bio">Michael is a web developer in the northern Upper
                     Palatinate. He has been
                     working in IT for over ten years, mostly developing database applications. His special passion is
                     designing websites and applications. </span>
             </div>
-        </section>
+        </aside>
 
         <footer>
-            <a class="footerNavItem" href="privacy.html">Privacy</a>
-            <a class="footerNavItem" href="contact.html">Contact</a>
+            <a class="footer-nav-item" href="privacy.html">Privacy</a>
+            <a class="footer-nav-item" href="contact.html">Contact</a>
         </footer>
     </div>
 

@@ -8,69 +8,74 @@
 </head>
 
 <body>
-    <div class="layoutContainer">
+    <div class="layout-container">
         <header>
             <a class="logo" href="index.html">Webelephant</a>
-            <nav class="navContainer">
-                <a class="navItem" href="index.html">Home</a>
-                <a class="navItem" href="dummy.html">About me</a>
-                <a class="navItem" href="dummy.html">Projects</a>
+
+            <nav class="nav-container" role="navigation">
+                <a class="nav-item" href="index.html">Home</a>
+                <a class="nav-item" href="dummy.html">About me</a>
+                <a class="nav-item" href="dummy.html">Projects</a>
             </nav>
         </header>
 
-        <section class="contentContainer">
-            <p class="subHeading">This is my blog about</p>
-            <h1 class="mainHeading">Webdesign</h1>
+        <section class="content-container" role="main">
+            <p class="sub-heading">This is my blog about</p>
+            <h1 class="main-heading">Webdesign</h1>
 
-            <div class="cardContainer">
+            <div class="card-container">
                 <div class="card">
-                    <img class="cardImg" src="images/collaboration.png" alt="People typing on laptops">
-                    <div class="cardContent">
-                        <h3 class="cardHeading"><b>How I collaborate with others</b></h3>
-                        <a class="viewBtn" type="button" value="View post" href="blogpost.html">View post</a>
+                    <img class="card-img" src="images/collaboration.png" alt="People typing on laptops">
+
+                    <div class="card-content">
+                        <h2 class="card-heading"><b>How I collaborate with others</b></h2>
+                        <a class="view-btn button" type="button" value="View post" href="blogpost.html">View post</a>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img class="cardImg" src="images/code.png" alt="programming code lines">
-                    <div class="cardContent">
-                        <h3 class="cardHeading"><b>The webdesign process</b></h3>
-                        <a class="viewBtn" type="button" value="View post" href="dummy.html">View post</a>
+                    <img class="card-img" src="images/code.png" alt="programming code lines">
+
+                    <div class="card-content">
+                        <h2 class="card-heading"><b>The webdesign process</b></h2>
+                        <a class="view-btn button" type="button" value="View post" href="dummy.html">View post</a>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img class="cardImg" src="images/desk.png" alt="pc on desk">
-                    <div class="cardContent">
-                        <h3 class="cardHeading"><b>My setup</b></h3>
-                        <a class="viewBtn" type="button" value="View post" href="dummy.html">View post</a>
+                    <img class="card-img" src="images/desk.png" alt="pc on desk">
+
+                    <div class="card-content">
+                        <h2 class="card-heading"><b>My setup</b></h2>
+                        <a class="view-btn button" type="button" value="View post" href="dummy.html">View post</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="sidebar">
+        <aside class="sidebar">
             <h2>Stay tuned!</h2>
-            <form class="subscribeForm">
-                <div class="subscribeEntries">
-                    <label class="subscribeLabel" for="fname">Name:</label>
-                    <input class="subscribeText" type="text" id="fname" name="fname">
+
+            <form class="subscribe-form">
+                <div class="subscribe-entries">
+                    <label class="subscribe-label" for="fname">Name:</label>
+                    <input class="subscribe-text" type="text" id="fname" name="fname">
                     <br>
                     <br>
-                    <label class="subscribeLabel" for="fmail">E-Mail:</label>
-                    <input class="subscribeText" type="text" id="fmail" name="fmail">
+                    <label class="subscribe-label" for="fmail">E-Mail:</label>
+                    <input class="subscribe-text" type="text" id="fmail" name="fmail">
                     <br>
                 </div>
-                <input id="subscribeBtn" type="button" value="Subscribe">
+
+                <input id="subscribe-btn" class="button" type="button" value="Subscribe">
             </form>
-        </section>
+        </aside>
 
         <footer>
-            <a class="footerNavItem" href="dummy.html">Privacy</a>
-            <a class="footerNavItem" href="dummy.html">Contact</a>
+            <a class="footer-nav-item" href="dummy.html">Privacy</a>
+            <a class="footer-nav-item" href="dummy.html">Contact</a>
         </footer>
     </div>
-
 </body>
 
 </html>

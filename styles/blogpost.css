@@ -1,79 +1,78 @@
 /*** Content ***/
 
-.postContainer {
+.post-container {
   display: flex;
   flex-direction: column;
   padding: 25px 200px 55px 100px;
 }
 
-.backLink {
+.back-link {
   font-size: 16px;
-  color: #83464e;
 }
 
-.postHero {
+.post-hero {
   margin-top: 25px;
   width: 55%;
   border-radius: 10px;
 }
 
-.postHead {
+.post-head {
   margin-top: 35px;
   display: flex;
   flex-direction: row;
 }
 
-.postHeading {
+.post-heading {
   font-size: 40px;
   font-weight: bold;
   margin-right: 30px;
 }
 
-.socialLinkContainer {
+.social-link-container {
   display: flex;
   gap: 10px;
 }
 
-.socialLink {
+.social-link {
   display: flex;
 }
 
-.socialLink > img {
+.social-link > img {
   width: 100%;
 }
 
-.postDate {
+.post-date {
   font-size: 24px;
   margin-bottom: 30px;
 }
 
-.postText {
+.post-text {
   font-size: 22px;
 }
 
-.postSubHeading {
+.post-sub-heading {
   font-size: 22px;
   font-weight: bold;
+  text-align: left;
 }
 
-.relatedPostsHeading {
+.related-posts-heading {
   margin-top: 30px;
   font-size: 16px;
   font-weight: bold;
 }
 
-.relatedPosts {
+.related-posts {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
 
-.relatedPostsLink {
+.related-posts-link {
   font-size: 16px;
-  color: #83464e;
 }
 
-.authorPortrait {
+.author-portrait {
   margin-top: 50px;
   margin-bottom: 60px;
   border-radius: 50%;
@@ -84,7 +83,7 @@
   margin-right: auto;
 }
 
-.authorInfoContainer {
+.author-info-container {
   padding-left: 50px;
   padding-right: 50px;
   display: flex;
@@ -92,7 +91,7 @@
   gap: 15px;
 }
 
-.authorInfoLine {
+.author-info-line {
   display: flex;
   flex-direction: row;
   align-items: stretch;
@@ -100,7 +99,7 @@
   width: 100%;
 }
 
-.authorInfo {
+.author-info {
   font-size: 24px;
   font-weight: bold;
 }
