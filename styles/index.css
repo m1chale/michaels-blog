@@ -15,16 +15,18 @@
 .card-container {
   margin-left: 100px;
   margin-top: 75px;
-  margin-right: 100px;
+  margin-right: 5%;
   display: flex;
-  gap: 60px;
+  gap: 5%;
 }
 
 .card {
   background-color: #e8e8e8;
-  width: 330px;
-  height: 350px;
+  width: 1fr;
+  max-width: 330px;
+  height: 100%;
   border-radius: 10px;
+  padding-bottom: 2%;
 }
 
 .card-content {
@@ -35,6 +37,7 @@
 
 .card-img {
   width: 100%;
+  max-width: 330px;
   border-radius: 10px 10px 0 0;
 }
 
@@ -112,56 +115,41 @@ h2 {
 }
 
 /* tablet screens */
-@media (min-width: 616px) and (max-width: 850px) {
+@media (min-width: 781px) and (max-width: 1250px) {
   .sub-heading {
-    margin-left: 35px;
-    margin-top: 25px;
-    font-size: 15px;
+    margin-left: 50px;
   }
 
   .main-heading {
-    margin-left: 35px;
-    font-size: 50px;
+    margin-left: 50px;
   }
 
   .card-container {
-    margin: 25px 35px 50px 35px;
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-bottom: 50px;
     flex-direction: column;
     gap: 30px;
-  }
-
-  .card {
-    width: 230px;
-    height: 275px;
-  }
-
-  .subscribe-form {
-    grid-template-columns: 90px 140px;
   }
 }
 
 /* mobile screens */
-@media (max-width: 615px) {
+@media (max-width: 780px) {
   .sub-heading {
-    margin-left: 30px;
-    margin-top: 25px;
-    font-size: 15px;
+    margin-left: 50px;
   }
 
   .main-heading {
-    margin-left: 30px;
-    font-size: 50px;
+    margin-left: 50px;
   }
 
   .card-container {
-    margin: 25px 30px 50px 30px;
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-bottom: 50px;
     flex-direction: column;
     gap: 30px;
-    align-items: center;
-  }
-
-  .card {
-    width: 230px;
-    height: 275px;
   }
 }
